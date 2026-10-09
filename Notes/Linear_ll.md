@@ -6,17 +6,39 @@
 2. collection of elements which will be stored dynamically
 3. stores address of next element as it contains pointer
 4. so every node will have |data | pointer| ex. Head |23||10 |ad of next node ||15 | ad of next node|| 33| null(last node ad)|
-5. Types : 
+5. Types :
 * Singly Linear   : last node null
-* Singly Circular : last node stores next node address 
+* Singly Circular : last node stores next node address
 * Doubly Linear   : stores address of prev and next both Last node null
 * Doubly Circular  : stores address of prev and next both Last node stores 1st node address
 
-6\. 
 
 
 
 
 
-&#x09;    
+
+***##9 oct 2026***
+
+
+
+*#INSERT NODE*
+
+
+
+
+
+*#DELETE NODE*
+
+
+
+*TEMP 1ST VALUE* CHECK W VALUE
+
+
+
+
+
+
+
+
 
