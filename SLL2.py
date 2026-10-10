@@ -43,6 +43,7 @@ class SLL :
             prev.next = temp.next
             temp = None
             
+    
         
         
     
@@ -71,3 +72,4 @@ list1.display()
 list1.delete(100)
 print()
 list1.display()
+
