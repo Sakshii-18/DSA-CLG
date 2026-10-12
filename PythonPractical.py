@@ -8,7 +8,7 @@ class Node:
 class SLL:
     def __init__(self):
         self.head = None
-    
+    #append val
     def append(self,new_node):
         if self.head == None:
             self.head = new_node
@@ -17,13 +17,13 @@ class SLL:
             while temp.next:
                 temp = temp.next
             temp.next = new_node
-                
+     #display recordss           
     def display(self):
         temp = self.head
         while temp:
             print(temp.data)
             temp = temp.next
-            
+    #insertt        
     def insert(self,new_node,pos):
         if(pos == 1):
             new_node.next = self.head
@@ -36,7 +36,7 @@ class SLL:
                 p +=1
             new_node.next = temp.next
             temp.next = new_node
-            
+     #delete        
     def delete(self,value):
         temp = self.head
         if(temp.data == value): #first node to delete
@@ -50,7 +50,7 @@ class SLL:
                     return
                 prev.next = temp.next
                 temp = None
-                
+    #find middle value            
     def findMiddle(self):
         p1 = self.head
         p2 = self.head
@@ -101,6 +101,8 @@ print("deleted Node :")
 l1.delete(30)
 l1.display()
 
+
+
 print("Reverse List :")
 l1.reverse()
 l1.display()
@@ -108,3 +110,6 @@ l1.display()
 print()
 print("Sum of 2 consecutive nodes : ")
 l1.SumOfNode()
+
+print("Middle value:")
+l1.findMiddle()

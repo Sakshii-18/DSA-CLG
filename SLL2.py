@@ -23,7 +23,7 @@ class SLL :
         else:
             p = 1
             temp = self.head
-            while (p != p-1):
+            while (p != pos-1):
                 temp = temp.next
                 p +=1
             new_node.next = temp.next
