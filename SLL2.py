@@ -33,8 +33,9 @@ class SLL :
         temp = self.head
         if(temp.data == value): #first node to delete
             self.head = self.head.next
+            return
         else:
-            while(temp.data != value and temp):
+            while(temp and temp.data != value):
                 prev = temp
                 temp = temp.next
                 if temp ==None:
@@ -72,4 +73,3 @@ list1.display()
 list1.delete(100)
 print()
 list1.display()
-
